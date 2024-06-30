@@ -1,0 +1,11 @@
+{
+  "homepage": "https://paulo19961944.github.io/CalcularImcBootstrap",
+  "dependencies": {
+    "bootstrap": "^5.3.3"
+  },
+
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  }
+}

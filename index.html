@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="dist/styles.css">
+    <title>Calcular IMC</title>
+</head>
+<body>
+    <section class="container d-flex flex-column">
+        <h1 class="text-center mb-4 mt-4">Calculadora de IMC</h1>
+        <article>
+            <form class="form-group mb-3">
+                <label for="peso">Digite o seu Peso</label>
+                <input type="number" class="form-control" id="peso" name="peso" value="0">
+            </form>
+            <form class="form-group">
+                <label for="altura">Digite a sua Altura</label>
+                <input type="number" class="form-control" id="altura" name="altura" value="0">
+            </form>
+        </article>
+        <article class="d-flex justify-content-center align-itens-center mt-5">
+            <button class="btn btn-primary" id="calcularImc">Calcular IMC</button>
+        </article>
+        <article class="d-flex justify-content-center align-itens-center mt-5">
+            <p id="resultado"></p>
+        </article>
+    </section>
+    <script src="src/scripts/script.js"></script>
+</body>
+</html>

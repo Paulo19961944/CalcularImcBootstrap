@@ -1,0 +1,12 @@
+// Importar o Bootstrap SCSS
+@import "../../node_modules/bootstrap/scss/bootstrap.scss";
+
+@media (max-width: 576px){
+    h1{
+        font-size: 1.5rem;
+    }
+
+    form label, p, #peso, #altura, #calcularImc{
+        font-size: 0.75em;
+    }
+}
